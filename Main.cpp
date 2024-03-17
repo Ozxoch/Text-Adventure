@@ -9,9 +9,9 @@ int main() {
     std::vector<std::string> missney;
     std::vector<std::string> answer;
     std::string state;
-    char choice2;
-    char choice3;
-    int choice4;
+    char choice2 = ' ';
+    char choice3 = ' ';
+    int choice4 = 0;
     std::cout << "In the story of life there is a balance in the carbon.\n";
     std::cout << "Plant cells and animal cells exist to provocate each render\n";
     std::cout << "At all cost these systems exist to inhibit and   stipulate the planetarium & elements.\n";
@@ -75,15 +75,15 @@ int main() {
                 std::cout << "1 for Buster Sword, 2 for Excalibur:\n";
                     std::cin >> choice4;
                 switch (choice4) {
-                case '1':
+                case 1:
                     missney.push_back(answer4);
                     break;
-                case '2':
+                case 2:
                     missney.push_back(answerquatro);
                     break;
                 default:
                     std::cout << "Try again:\n";
-                    std::cin >> choice3;
+                    std::cin >> choice4;
                 }
             }
             if (user == 0) {
