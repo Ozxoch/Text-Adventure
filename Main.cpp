@@ -70,7 +70,7 @@ int main() {
      
             std::string answer4 = "Devil";
             std::string answerquatro = "God";
-            std::cout << "What weapon is fit for a King of True heart?/n";
+            std::cout << "What weapon is fit for a King of True heart?\n";
             for (int w = 0; w < 3 && choice4 != 1 && choice4 != 2; w++) {
                 std::cout << "1 for Buster Sword, 2 for Excalibur:\n";
                     std::cin >> choice4;
